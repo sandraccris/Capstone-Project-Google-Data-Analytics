@@ -34,6 +34,7 @@ WHERE location = 'Portugal'
 Order by 1,2 
 
 
+
 --Looking at Countries with Highest Infection Rates compared to Population
 
 SELECT Location,  population, MAX(total_cases) as HighestInfectionCount, MAX(total_cases/population)*100 as PercentPopulationInfected
